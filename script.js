@@ -93,7 +93,7 @@ window.addEventListener('scroll', function() {
             }, step);
     }
 
-    counter("count1", 0, 4, 2000); // Adjust end value as per your requirement
-    counter("count2", 0, 25, 4000); // Adjust end value as per your requirement
-    counter("count3", 0, 10, 4000); // Adjust end value as per your requirement
+    counter("count1", 0, 4, 3000); // Adjust end value as per your requirement
+    counter("count2", 0, 25, 8000); // Adjust end value as per your requirement
+    counter("count3", 0, 10, 8000); // Adjust end value as per your requirement
 });

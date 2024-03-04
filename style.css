@@ -409,10 +409,12 @@ footer .cols .news-col form button i{
     .guarantee{
         flex-wrap: wrap;
         gap: 10px;
+        
     }
 
     .guarantee .item{
         flex-basis: 49%;
+        
     }
 
     .skills{
@@ -526,6 +528,7 @@ footer .cols .news-col form button i{
         margin-top: 40px;
         width: 260px;
         height: 270px;
+        margin-bottom: 1px;
     }
 
     .skills{
@@ -575,14 +578,29 @@ footer .cols .news-col form button i{
     .main p.subtitle{
         font-size: 15px;
     }
-
+    .main img{
+        margin-top: 15px;
+        width: 250px;
+        height: 280px;
+        
+    }
     .guarantee .item .info h3{
         font-size: 20px;
     }
-
-    .guarantee .item .info p{
-        font-size: 11px;
     
+    .guarantee .item .info p{
+        font-size: 10px;
+    
+    }
+    .seprator{
+        margin: 50px 50px 30px;
+        padding: 10px 70px;
+        background: rgba(255, 255, 255, 0.08);
+        display: inline-block;
+        color: #f02f1e;
+        border-radius: 12px;
+        font-size: 20px;
+        
     }
 
 }
